@@ -1,4 +1,4 @@
-#### Image filtering with convolution
+# Image filtering with convolution
 Image filtering, which also referred to as image blurring, or convolution, is a frequently used image processing operation. The algorithm is to apply convolution operation on each image pixel through elemement-wise 3x3 matrix multiplication with a 3x3 filter matrix (also referred to as coefficients matrix). Applying different filter to an image using this algorithm yields images of different visual effects, such as blurring, smoothing, etc. The description of image filtering and an OpenCV example can be found from [OpenCV Tutorial for Filtering Images](https://docs.opencv.org/3.4.0/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html), and the [`filter_image` function in FILTER.C](FILTER.C) provide concise implementation for image filtering algorithms. 
 
 You should implement the filtering algorithms according to the algorithms in [FILTER.C](FILTER.C). Please be noted that your implementation should work with RGB images (three layers) while FILTER.C is only for single-layer grayscale images.

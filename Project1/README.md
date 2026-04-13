@@ -7,6 +7,7 @@ You should implement the filtering algorithms according to the algorithms in [FI
 The skeleton code are provided in [Filtering.cpp](Filtering.cpp). You should also check [CMakeLists.txt](CMakeLists.txt) to see how they will be built to executables using cmake/make/gcc utilities. [README.md](README.md) provide instructions for how to build all executables at once. The intial source code of [Filtering.cpp](Filtering.cpp) file is a copy from [changing the contrast and brightness of an image](https://docs.opencv.org/3.4.0/d3/dc1/tutorial_basic_linear_transform.html). The methods for reading/writing/displaying an image and for getting/setting a pixel value of an image are pretty simple in OpenCV, which can be found from [this short description with code sample for operating images](https://docs.opencv.org/3.4.0/d5/d98/tutorial_mat_operations.html). The FilteringOpenCV.cpp file for OpenCV image processing are all from the OpenCV tutorial and they are for your reference only, which calls OpenCV implemented filtering. Your implementation should use loops to apply pixel-wise computation according to the convolution algorithms implemented in FILTER.c. 
 
 ## To Build
+ 1. clone this repo and cd to the clone work folder. 
  1. `mkdir build`, **only do once**. 
  1. `cd build; cmake ..` to create the Makefile, **only do once**
     1. On the lab machines, this should be enough. But if you use different machines and cmake fails to locate where OpenCV is installed, you can set it 
@@ -14,6 +15,9 @@ The skeleton code are provided in [Filtering.cpp](Filtering.cpp). You should als
  1. `make` to build the examples. **Do each time you change your source code, and want to build and execute the program** 
  1. execute an example, e.g. `./Filtering`
 
+## Setting up OpenCV and SSH Access with X Forwarding
+ 1. [Setting up OpenCV on Centaurus](OpenCV_Centaurus.md)
+ 2. [SSH with X forwarding](SSH-XForwarding.md)
 
 ## Submission
 **Your submission should be a single zipped file named LastNameFirstName.zip that includes ONLY the following: the implemented source file, Filtering.cpp and a PDF file for your report. Please remove all other files, including the executables, Excel sheet, etc.** 

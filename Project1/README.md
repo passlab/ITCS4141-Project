@@ -29,7 +29,7 @@ There are three versions for the implementation, one for each task. You need to 
 **Your submission should be a single zipped file named LastNameFirstName.zip that includes ONLY the following: the implemented source file, Filtering.cpp and a PDF file for your report. Please remove all other files, including the executables, Excel sheet, etc.** 
 In the report, please describe:
 1.	Short description on how you implement filtering.
-1.	Performance report using (later on)
+1.	Performance report for comparing the three implementations (only for task 3). 
 
 #### Grading: 
 
